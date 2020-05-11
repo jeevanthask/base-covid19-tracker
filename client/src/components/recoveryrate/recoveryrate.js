@@ -37,6 +37,7 @@ class Recoveryrate extends React.Component {
     render() {
         return (
             <div style={{marginTop: 15}}>
+
                 <div className="text-center p-3" style={{backgroundColor: '#FFFFFF'}}>
                     <h4>Recovery Rate Comparison</h4>
                     <Pie

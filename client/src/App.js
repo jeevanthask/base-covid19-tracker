@@ -28,6 +28,7 @@ import Newsymptoms from "./components/coronahistory/newsymptoms";
 import FatalityRateComparison from "./components/fatalityratecomparison/fatality rate comparison";
 import Growthrate from "./components/growthrate/growthrate";
 import Recoveryrate from "./components/recoveryrate/recoveryrate";
+import Currentnews from "./components/currentnews/currentnews";
 
 
 class App extends React.Component {
@@ -69,11 +70,6 @@ class App extends React.Component {
                         <div className="col-md-12 m-2">
                             <Rendercards data={this.state.data}/>
                         </div>
-                    </div>
-
-                    <div className="div">
-                        <div className="row"></div>
-                        <div className="row"></div>
                     </div>
 
                     <div className="row p-2" style={{marginTop: 10}}>
@@ -123,6 +119,15 @@ class App extends React.Component {
                         </div>
                     </div>
 
+                    <div className="row ">
+                        <div className="col-md-6 text-center col-sm-12">
+                            <Currentnews/>
+                        </div>
+                        <div className="col-md-6 text-center col-sm-12">
+                            <Recoveryrate/>
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-md-12 m-2">
                             <Currentlocalhospitalindividuals data={this.state.data}/>
@@ -131,7 +136,7 @@ class App extends React.Component {
 
                     <div className="row">
                         <div className="col-md-12 m-2">
-                            <Currentforeignhospitalindividuals data={this.state.data}/>
+
                         </div>
                     </div>
 
@@ -141,15 +146,6 @@ class App extends React.Component {
                         </div>
                         <div className="col-md-6 text-center col-sm-12">
                             <Growthrate/>
-                        </div>
-                    </div>
-
-                    <div className="row ">
-                        <div className="col-md-6 text-center col-sm-12">
-
-                        </div>
-                        <div className="col-md-6 text-center col-sm-12">
-                            <Recoveryrate/>
                         </div>
                     </div>
 

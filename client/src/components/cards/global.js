@@ -15,7 +15,7 @@ class GlobalCard extends React.Component {
                                 <h5 className="card-title text-center">
                                     <CountUp start={0}
                                              end={this.props.data.global_total_cases}
-                                             duration={2.75} separator=","/></h5>
+                                             duration={15} separator=","/></h5>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ class GlobalCard extends React.Component {
                             <div className="card-body">
                                 <h5 className="card-title text-center"><CountUp start={0}
                                                                                 end={this.props.data.global_recovered}
-                                                                                duration={2.75} separator=","/></h5>
+                                                                                duration={15} separator=","/></h5>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ class GlobalCard extends React.Component {
                             <div className="card-body">
                                 <h5 className="card-title text-center"><CountUp start={0}
                                                                                 end={this.props.data.global_deaths}
-                                                                                duration={2.75} separator=","/></h5>
+                                                                                duration={15} separator=","/></h5>
                             </div>
                         </div>
                     </div>
