@@ -16,8 +16,7 @@ class Currentnews extends React.Component {
                         </p>
                         <hr/>
                         <p>
-                            The Ministry of Justice said that judicial proceedings will commence today excluding in the districts where curfew continues to be in force.
-                        </p>
+                            02 more people tested positive for COVID-19. Total confirmed COVID-19 cases in Sri Lanka rises to 846 : Government Information Dept.                        </p>
                         <p></p>
 
                     </div>
